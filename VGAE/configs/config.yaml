@@ -1,0 +1,13 @@
+model:
+  input_dim:1433
+  hidden_dim:32
+  latent_dim:16
+
+training:
+  lr:0.01
+  epochs:200
+  device:'cpu'
+  weight_decay:0.0
+
+dataset:
+  name:'Cora'
